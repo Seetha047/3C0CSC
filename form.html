@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FORM</title>
+	</head>
+	<body>
+		<form>
+			Name:<input type="text"/><br/>
+			Date:<input type="Date"placeholder="dd/mm/yyyy"min="01/01/2022"/><br/>
+			State:
+			<select>
+				<option>Kerala</option>
+				<option>Karnataka</option>
+				<option>Tamli Nadu</option>
+				<option>Goa</option>
+				<option>Bihar</option>
+			</select><br/>
+			District:<input list="districts"/>
+				<datalist id="districts">
+					<option value="Kasaragod"/>
+					<option value="Kannur"/>
+					<option value="Kozhikode"/>
+					<option value="Kottayam"/>
+					<option value="Alappuzha"/>
+				</datalist><br/>
+			Gender:<br/>
+			Male:<input type="radio"name="Gender"value="M"/>
+			Female:<input type="radio"name="Gender"value="F"/>
+			Others:<input type="radio"name="Gender"value="E"/></br>
+			Type of Vehicles you have:<br/>
+				2 Wheeler<input type="checkbox" value="2"/></br>
+				3 Wheeler<input type="checkbox" value="3"/></br>
+				4 Wheeler<input type="checkbox" value="4"/></br>		
+		</form>	
+	</body>
+</html>
